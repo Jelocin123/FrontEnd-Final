@@ -1,0 +1,27 @@
+
+
+{
+
+  
+  "content": [
+    {
+      "title": "What We Do",
+      "imageMobile": "/assets/weba-2-mobil-whatwedo.png",
+      "imageDesktop": "/assets/front-what-we-do.png",
+      "link": "/WhatWeDo"
+    },
+    {
+      "title": "Maintainable",
+      "imageMobile": "/assets/weba-3-mobil-maintainable.png",
+      "imageDesktop": "/assets/front-maintainable.png",
+      "link": "/MaintainAble"
+    },
+    {
+      "title": "Get In Touch",
+      "imageMobile": "/assets/weba-mobil.getintouch.png",
+      "imageDesktop": "/assets/front-get-in-touch.png",
+      "link": "/GetInTouch"
+    }
+  ]
+  }
+  

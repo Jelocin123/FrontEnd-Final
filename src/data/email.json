@@ -1,0 +1,18 @@
+[  
+{
+    "url": "/assets/whatwedo-small.png",  
+    "alt": "What we do",  
+    "caption": "it@coolish.com"
+    
+}, 
+{   "url": "/assets/maintainable-small.png",  
+    "alt": "MaintainAble",   
+    "caption": "pr@coolish.com"
+    
+
+}, 
+{   "url": "/assets/getintouch-small.png",  
+    "alt": "Get in touch", 
+    "caption": "mn@coolish.com"
+}
+]

@@ -1,0 +1,86 @@
+#main {
+  min-height: 100vh;
+  overflow: hidden;
+  background: rgb(142, 215, 233);
+}
+
+#backButtonBackground {
+  background-color: transparent;
+  border: 0;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  #backButtonImage {
+    width: calc(1.5em + 1.5vw);
+    height: calc(1.5em + 1.5vw);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #backButtonImage {
+    width: calc(2em + 2vw);
+    height: calc(2em + 2vw);
+  }
+}
+
+.box {
+  position: relative;
+  width: calc(2em + 2vw);
+  height: calc(2em + 2vw);
+  margin-left: 10px;
+  border-radius: 9px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 0px 2px 1px rgba(150, 149, 149, 0.67);
+
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &.active {
+    border: none;
+    transform: scale(1.1);
+    &:before {
+      content: "";
+      position: absolute;
+      top: calc(2.2em + 2.2vw);
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background-color: inherit;
+      border-radius: 2.5px; 
+      box-shadow: 0px 0px 2px 1px rgba(150, 149, 149, 0.67);
+      
+  
+
+    }
+  }
+}
+
+#h2 {
+  font-size: calc(1.2em + 1.2vw);
+}
+
+#p {
+  color: white;
+  text-align: justify;
+  font-size: calc(.48em + .7vw);
+  font-family:  system-ui,  Helvetica, Arial, sans-serif;
+  
+
+}
+
+#span {
+  color: rgb(58, 158, 225);
+}
+
+#headliner {
+  max-width: calc(4.5em + 4.5vw);
+  border-radius: 1px;
+  font-size: calc(.7em + .7vw);
+  font-weight: bold;
+  margin-top: calc(5.2em + 5.2vw);
+}
+

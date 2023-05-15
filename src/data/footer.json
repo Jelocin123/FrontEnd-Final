@@ -1,0 +1,16 @@
+[
+    {
+      "url": "/assets/logo-a.png",
+      "alt": "Image 1",
+      "showImage": true
+      
+    },
+    {
+      "url": "/assets/logo-b.png",
+      "alt": "Image 2",
+      "showImage": false
+
+      
+    }
+  ]
+  

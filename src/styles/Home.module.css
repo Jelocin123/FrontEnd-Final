@@ -1,0 +1,7 @@
+#main {
+  min-height: 100vh;
+  overflow: hidden;
+  background: rgb(224,238,234);
+  background: linear-gradient(180deg, rgba(224,238,234,1) 26%, rgb(178, 192, 239) 100%);
+}
+

@@ -1,0 +1,37 @@
+#logo {
+    width: calc(6em + 6vw);
+}
+
+.box {
+    position: relative;
+    width: calc(1.7em + 1.7vw);
+    height: calc(1.7em + 1.7vw);
+    margin-left: 10px;
+    border-radius: 9px;
+    transition: all 0.2s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  
+    &.active {
+      border: none;
+      &:before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background-color: inherit;
+        border-radius: 2.5px; 
+      }
+    }
+  }
+
+  #headliner {
+    border-radius: 1px;
+    font-size: calc(0.5em + 0.5vw);
+    font-weight: bold;
+  }
+  
